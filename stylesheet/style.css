@@ -278,7 +278,7 @@ nav .ul__sideBar .li__sideBar {
 	line-height: 88px;
 }
 .li__sideBar:nth-child(2):after { 
-	content: "Remind";
+	content: "Saved";
 	line-height: 88px;
 }
 .li__sideBar:nth-child(3):after { 
@@ -388,8 +388,8 @@ nav .ul__sideBar .li__sideBar {
 	background-color: #ffffff;
     overflow: hidden;
 	position: sticky;
-/* 	position: absolute;
- */	bottom: 5px;
+
+ 	bottom: 5px;
 	margin-bottom: 5px;
 	margin-top: 50px;
 
@@ -423,11 +423,23 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
     gap: 20px;
 }
 
-.card {
+.card__apunte {
     transition: ease-in-out 0.3s;
 }
 
-.card:hover {
+.card__apunte:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
+
+.list-group-item {
+    transition: ease-in-out;
+}
+
+.list-group-item:hover {
+    cursor: pointer;
+    background-color:rgba(25, 119, 153, 0.616);
+    color: white;
+}
+
+/* FIN SAVED */
