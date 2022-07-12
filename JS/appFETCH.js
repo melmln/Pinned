@@ -1,13 +1,13 @@
 // FETCH 
 
 const cargarApuntes = (URL) => {
-    debugger
     fetch(URL)
     .then((response) => response.json())
     .then((data) => {
         apuntesGuardados = data
         apuntesGuardados.forEach(contenido => {
             apuntesMostrar += retornoApuntes(contenido)
+            apuntesGuardados.push(data)
         })
         contenidoApuntes.innerHTML = apuntesMostrar
     })
@@ -18,5 +18,7 @@ const cargarApuntes = (URL) => {
     .finally(() => cargandoApuntes.innerHTML = "")
 }
 
-cargarApuntes()
+cargarApuntes("/JS/datosServidor.json")
+
+
 

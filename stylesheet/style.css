@@ -411,3 +411,23 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
 }
 
 /* FIN MUSIC */
+
+/* SAVED */
+
+#contenedor__apuntes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.card {
+    transition: ease-in-out 0.3s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
