@@ -7,7 +7,8 @@ background-image: url(../stylesheet/img/background.avif);
 }
 
 .saved__body {
-    background-color: rgb(27, 27, 27);
+    height: 100vh;
+    background-image: url(../stylesheet/img/background.avif);
 }
 
 /* SIGN UP & REGISTER */
@@ -423,6 +424,8 @@ nav .ul__sideBar .li__sideBar {
 /* SAVED */
 .saved__title {
     color: whitesmoke;
+    background: rgb(0, 0, 0);
+    padding: 15px;
     font-size: 13px;
     margin-top: 5px;
     margin-left: 2px;
@@ -435,10 +438,22 @@ nav .ul__sideBar .li__sideBar {
     margin: 5px;
 }
 
+.inicio__container i {
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 3px 3px black;
+}
+
+
 .doc__container {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.doc__container i {
+    color: black;
 }
 
 .btnContainer {
@@ -449,7 +464,7 @@ nav .ul__sideBar .li__sideBar {
 
 
 .btnContainer i {
-    font-size: 30px;
+    font-size: 57px;
 }
 
 
