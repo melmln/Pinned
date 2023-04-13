@@ -1,3 +1,3 @@
 # Pinned
 
-Host: https://fancy-gelato-1851c2.netlify.app
+Host: https://ornate-palmier-b92d9a.netlify.app/
